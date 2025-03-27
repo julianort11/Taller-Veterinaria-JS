@@ -1,5 +1,7 @@
+
+
+
 let opcion;
-// let saludo = alert ("Bienvenidos a la veterianaria:) ")
 do {
     opcion = prompt(
     "Bienvenidos a la veterianaria:)\n"+
@@ -15,22 +17,22 @@ do {
 
     switch (opcion) {
         case "a":
-          alert("¡Hola! Este es un mensaje.");
+          alert("a. Registrar una nueva mascota.");
           break;
         case "b":
-          alert("segundo mensaje")
+          alert("b. Sumar dos números.")
           break;
         case "c":
-          alert("tercero mensaje")
+          alert("c. Buscar una mascota por nombre.")
           break;
         case "d":
-          alert("cuarto mensaje")
+          alert("d. Actualizar el estado de salud de una mascota.")
           break;
         case "e":
-          alert("quinto mensaje")
+          alert("e. Eliminar una mascota por nombre.")
           break;
         case "f":
-          alert("Saliendo del menú...");
+          alert("f. Salir");
           break;
         default:
           alert("Opción no válida, intenta de nuevo.");
@@ -38,12 +40,3 @@ do {
 } while (opcion !== "f");
 
 console.log("Programa terminado.");
-
-
-// let mascotas = {
-//     nombre: "miau",
-//     especie: ["perro", "gato", "tortuga"],
-//     edad: 12,
-//     peso: "12kg",
-//     estadoSalud: ["Sano", "Enfermo", "En tratamiento" ]
-// }

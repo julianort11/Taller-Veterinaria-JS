@@ -1,0 +1,16 @@
+[
+    {
+        "nombre": "miau",
+        "especie": "gato",
+        "edad": "12",
+        "peso": "12kg",
+        "estadoSalud": {"Sano": false, "Enfermo": true, "En tratamiento": false }
+    },
+    {
+        "nombre": "firulais",
+        "especie": "perro",
+        "edad": "4",
+        "peso": "20kg",
+        "estadoSalud": {"Sano": true, "Enfermo": false, "En tratamiento": false }
+    }
+]
